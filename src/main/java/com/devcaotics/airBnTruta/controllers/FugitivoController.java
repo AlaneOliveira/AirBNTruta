@@ -19,6 +19,7 @@ import com.devcaotics.airBnTruta.model.repositories.Facade;
 
 import jakarta.servlet.http.HttpSession;
 
+// controlador
 @Controller
 @RequestMapping("/fugitivo")
 public class FugitivoController {
@@ -148,4 +149,5 @@ public class FugitivoController {
 
         return "redirect:/fugitivo";
     }
+    // fim do projeto
 }
